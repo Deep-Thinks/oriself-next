@@ -1,6 +1,0 @@
-# Benchmark runs 产出的实际 session 数据（大、非源码）
-results/
-results.*/
-logs/
-__pycache__/
-*.pyc

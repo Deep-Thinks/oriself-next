@@ -38,10 +38,6 @@ loaded_when: "converge_triggered"
 
 除此之外代码怎么写、样式怎么排、视觉怎么设计——没有任何限制。
 
-### 为什么不再是 JSON
-
-之前版本把整段 HTML 塞进 JSON 字符串字段里传递，引号污染是最常见的失败源（benchmark 中 13/19 converge_failed 都栽在这里）。现在直接交 HTML，去掉那层脆弱的 escape。**你不用担心 JSON 转义**——你就是在写 HTML，按 HTML 规则写就行。
-
 ---
 
 ## 第零步 · 先立四字母（开始写 HTML 之前必做）

@@ -1,1 +1,4 @@
 .DS_Store
+
+# 研究/评测产物（codex review、分析脚本等）——不属于产品 skill
+benchmark/
